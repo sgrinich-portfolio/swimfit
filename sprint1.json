@@ -1,0 +1,58 @@
+ [
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Freestyle",
+  "interval": "No Interval",
+  "notes": "Warm up.",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Kick",
+  "interval": "No Interval",
+  "notes": "Warm up.",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "IM",
+  "interval":"No Interval",
+  "notes": "Warm up.",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Pull",
+  "interval": "No Interval",
+  "notes": "Warm up.",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Freestyle",
+  "interval": "No Interval",
+  "notes": "Warm up.",
+  "unit": "yards"
+  },
+  {
+  "total": 4,
+  "distance": 25,
+  "stroke": "Butterfly",
+  "interval": "0:30",
+  "notes": "One armed drill if needed.",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Pull",
+  "interval": "3:00",
+  "notes": "Breathing pattern is 3, 5, 7, 9 for each 50",
+  "unit": "yards"
+  }
+]

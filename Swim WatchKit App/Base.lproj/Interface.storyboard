@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eg9-Be-gg8">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Home Interface Controller-->
+        <scene sceneID="ghS-bm-9p3">
+            <objects>
+                <controller id="eg9-Be-gg8" customClass="HomeInterfaceController" customModule="Swim_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Vwr-BS-52E">
+                            <items>
+                                <tableRow identifier="workoutProgramRowController" id="KUE-UD-MLj" customClass="WorkoutProgramRowController" customModule="Swim_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="uy6-0U-Kyi">
+                                        <items>
+                                            <label width="136" height="50" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" id="LR0-xc-iVX"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="swimWorkoutLabel" destination="LR0-xc-iVX" id="G6Z-sN-zFE"/>
+                                        <segue destination="AgC-eL-Hgc" kind="modal" id="8Df-9q-lzE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="workoutProgramTable" destination="Vwr-BS-52E" id="iyo-pe-6oa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-210" y="34"/>
+        </scene>
+        <!--InstructionInterfaceController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InstructionInterfaceController" id="AgC-eL-Hgc" customClass="InstructionInterfaceController" customModule="Swim_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" semanticContentAttribute="spatial" id="DgR-3g-55p">
+                            <items>
+                                <group width="0.90000000000000002" height="164" alignment="center" verticalAlignment="center" layout="vertical" id="Oqz-wS-Wcg">
+                                    <items>
+                                        <label width="1" alignment="left" text="Workout Navigation" id="HSU-en-pZt">
+                                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label width="1" height="1" alignment="left" text="text" textAlignment="left" numberOfLines="7" id="Hg3-Wg-NiP">
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="0.10000000000000001" height="177" alignment="center" verticalAlignment="center" id="h9A-K0-Xap">
+                                    <items>
+                                        <spriteKitScene width="1" height="177" alignment="center" verticalAlignment="center" id="jeo-6O-kxj"/>
+                                    </items>
+                                    <edgeInsets key="margins" left="7" right="3" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="navSlider" destination="jeo-6O-kxj" id="a4J-cP-SCW"/>
+                        <outlet property="navigationTutorialText" destination="Hg3-Wg-NiP" id="0KB-RJ-hJA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="29.205128205128208"/>
+        </scene>
+        <!--SetInterfaceController-->
+        <scene sceneID="XR5-vq-mll">
+            <objects>
+                <controller identifier="SetInterfaceController" id="pRB-mX-HmU" customClass="SetInterfaceController" customModule="Swim_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" semanticContentAttribute="spatial" id="Rix-MH-Oz8">
+                            <items>
+                                <group width="0.90000000000000002" height="1" alignment="left" layout="vertical" id="RXI-Za-rF6">
+                                    <items>
+                                        <label width="1" alignment="left" text="distance" id="yyD-bm-XzT"/>
+                                        <label alignment="left" text="stroke" id="dTV-BS-TaW">
+                                            <color key="textColor" red="1" green="0.1095702603" blue="0.043301217529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </label>
+                                        <label alignment="left" text="interval" id="yDE-SV-kaf">
+                                            <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <timer alignment="left" id="8bJ-tK-L9X"/>
+                                        <label alignment="left" text="Label" id="IjZ-u0-zwl"/>
+                                        <button width="1" height="25" alignment="left" title="Stop" id="taZ-4E-I5m">
+                                            <color key="titleColor" red="1" green="0.90196078430000004" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.19381983785954415" green="0.37343648539357732" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="onStopTouch" destination="pRB-mX-HmU" id="tnt-U5-JqZ"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="0.10000000000000001" height="1" alignment="left" layout="vertical" id="gdd-8D-3Vl">
+                                    <items>
+                                        <spriteKitScene width="64" height="1" alignment="left" id="5rJ-Ey-nh9"/>
+                                    </items>
+                                    <edgeInsets key="margins" left="7" right="3" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="LiG-Cs-Bjp">
+                        <items>
+                            <menuItem title="Stop Workout" icon="trash" id="5pW-Rl-mmY">
+                                <connections>
+                                    <action selector="onMenuStopTouch" destination="pRB-mX-HmU" id="hBO-5y-BMh"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="distanceLabel" destination="yyD-bm-XzT" id="mNL-td-pFY"/>
+                        <outlet property="interfaceTimer" destination="8bJ-tK-L9X" id="XWl-zw-SoP"/>
+                        <outlet property="intervalLabel" destination="yDE-SV-kaf" id="w9S-To-VF2"/>
+                        <outlet property="navSlider" destination="5rJ-Ey-nh9" id="iUl-tc-Cgv"/>
+                        <outlet property="notesLabel" destination="IjZ-u0-zwl" id="pFE-1D-7F4"/>
+                        <outlet property="strokeLabel" destination="dTV-BS-TaW" id="Sbr-4q-zzH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="255" y="29"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.36078431370000003" green="0.83921568629999999" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

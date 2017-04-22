@@ -1,0 +1,4 @@
+
+
+-- replace os.log & print with some nicer logging framework
+-- rename sendToWatchButton within HomeViewController.swift

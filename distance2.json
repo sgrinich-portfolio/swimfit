@@ -1,0 +1,90 @@
+ [
+  {
+  "total": 1,
+  "distance": 600,
+  "stroke": "Choice",
+  "interval": "No Interval",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 8,
+  "distance": 75,
+  "stroke": "Kick",
+  "interval": "1:15",
+  "notes": "25 streamline kick/50 swim",
+  "unit": "yards"
+  },
+  {
+  "total": 4,
+  "distance": 25,
+  "stroke": "Butterfly",
+  "interval":"0:30",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Pull",
+  "interval": "3:00",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 4,
+  "distance": 50,
+  "stroke": "Backstroke",
+  "interval": "1:00",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Pull",
+  "interval": "3:00",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 4,
+  "distance": 75,
+  "stroke": "Breaststroke",
+  "interval": "1:20",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Pull",
+  "interval": "3:00",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 4,
+  "distance": 100,
+  "stroke": "Freestyle descend",
+  "interval": "1:30",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Pull",
+  "interval": "3:00",
+  "notes": "",
+  "unit": "yards"
+  },
+  {
+  "total": 1,
+  "distance": 200,
+  "stroke": "Choice",
+  "interval": "3:00",
+  "notes": "alt 50 scull/50 swim",
+  "unit": "yards"
+  }
+]

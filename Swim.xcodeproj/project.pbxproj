@@ -1,0 +1,1301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA07159B1E2C75B1008FC03F /* swimtabicon3.png in Resources */ = {isa = PBXBuildFile; fileRef = EA07159A1E2C75B1008FC03F /* swimtabicon3.png */; };
+		EA0715A71E2C7815008FC03F /* storeicon4.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0715A61E2C7815008FC03F /* storeicon4.png */; };
+		EA0715A91E2C7899008FC03F /* swimicon5.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0715A81E2C7899008FC03F /* swimicon5.png */; };
+		EA0715AB1E2C78CE008FC03F /* swimicon6.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0715AA1E2C78CE008FC03F /* swimicon6.png */; };
+		EA0A662D1DE93782002EDE47 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A662C1DE93782002EDE47 /* Utilities.swift */; };
+		EA0A66301DE9385C002EDE47 /* HKQuantityTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A662E1DE9385C002EDE47 /* HKQuantityTypeExtension.swift */; };
+		EA0A66311DE9385C002EDE47 /* ParentConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A662F1DE9385C002EDE47 /* ParentConnector.swift */; };
+		EA0A66321DE9389D002EDE47 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A662C1DE93782002EDE47 /* Utilities.swift */; };
+		EA0FA1F91DD4345E002C22CF /* RootSetInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FA1F81DD4345E002C22CF /* RootSetInterfaceController.swift */; };
+		EA39B1671DD96EB6008C0606 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA39B1661DD96EB6008C0606 /* HealthKit.framework */; };
+		EA39B16C1DD970B7008C0606 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA39B16B1DD970B7008C0606 /* HealthKit.framework */; };
+		EA3D8F601DF5096900777205 /* sprint1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA5CE3E41DEFE6BA00234D6E /* sprint1.json */; };
+		EA3E36811E90B929004E4A26 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E36801E90B929004E4A26 /* HomeViewController.swift */; };
+		EA484FBD1E90BB3C00BC5D9D /* WorkoutTypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA484FBC1E90BB3C00BC5D9D /* WorkoutTypesTableViewController.swift */; };
+		EA484FBF1E90BB5500BC5D9D /* WorkoutTypesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA484FBE1E90BB5500BC5D9D /* WorkoutTypesTableViewCell.swift */; };
+		EA5CE3E51DEFE6BA00234D6E /* sprint1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA5CE3E41DEFE6BA00234D6E /* sprint1.json */; };
+		EA5CE3E61DEFE6BA00234D6E /* sprint1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA5CE3E41DEFE6BA00234D6E /* sprint1.json */; };
+		EA5CE3E81DEFE73A00234D6E /* SwimWorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5CE3E71DEFE73A00234D6E /* SwimWorkoutService.swift */; };
+		EA5CE3E91DEFE73A00234D6E /* SwimWorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5CE3E71DEFE73A00234D6E /* SwimWorkoutService.swift */; };
+		EA710AF51E6E46CE0078B14D /* WorkoutCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA710AF41E6E46CE0078B14D /* WorkoutCollectionTableViewCell.swift */; };
+		EA7BA0861E9A1BC200F99C4D /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA0851E9A1BC200F99C4D /* HomeInterfaceController.swift */; };
+		EA7BA0881E9A1D7400F99C4D /* WorkoutProgramRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA0871E9A1D7400F99C4D /* WorkoutProgramRowController.swift */; };
+		EA9813DF1EA03D6400D511A4 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = EA9813DE1EA03D6400D511A4 /* TODO */; };
+		EA9C87E71E2AFA8100ADC211 /* midDistance1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87E61E2AFA8100ADC211 /* midDistance1.json */; };
+		EA9C87E91E2AFA8D00ADC211 /* kick1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87E81E2AFA8D00ADC211 /* kick1.json */; };
+		EA9C87EB1E2AFA9500ADC211 /* distance1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EA1E2AFA9500ADC211 /* distance1.json */; };
+		EA9C87ED1E2AFAA000ADC211 /* threshold1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EC1E2AFAA000ADC211 /* threshold1.json */; };
+		EA9C87EF1E2AFAA800ADC211 /* other1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EE1E2AFAA800ADC211 /* other1.json */; };
+		EAA5B2C51DD162F600D65423 /* SetInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B2C41DD162F600D65423 /* SetInterfaceController.swift */; };
+		EAA96F411E5E9EF0006C484B /* midDistance2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F401E5E9EF0006C484B /* midDistance2.json */; };
+		EAA96F421E5E9EF5006C484B /* midDistance2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F401E5E9EF0006C484B /* midDistance2.json */; };
+		EAA96F431E5E9EF5006C484B /* midDistance2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F401E5E9EF0006C484B /* midDistance2.json */; };
+		EAA96F451E5E9F06006C484B /* distance2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F441E5E9F06006C484B /* distance2.json */; };
+		EAA96F461E5E9F06006C484B /* distance2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F441E5E9F06006C484B /* distance2.json */; };
+		EAA96F471E5E9F06006C484B /* distance2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F441E5E9F06006C484B /* distance2.json */; };
+		EAA96F491E5E9F17006C484B /* threshold2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F481E5E9F17006C484B /* threshold2.json */; };
+		EAA96F4A1E5E9F17006C484B /* threshold2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F481E5E9F17006C484B /* threshold2.json */; };
+		EAA96F4B1E5E9F17006C484B /* threshold2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F481E5E9F17006C484B /* threshold2.json */; };
+		EAA96F4D1E5E9F1D006C484B /* kick2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F4C1E5E9F1D006C484B /* kick2.json */; };
+		EAA96F4E1E5E9F1D006C484B /* kick2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F4C1E5E9F1D006C484B /* kick2.json */; };
+		EAA96F4F1E5E9F1D006C484B /* kick2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F4C1E5E9F1D006C484B /* kick2.json */; };
+		EAA96F511E5E9F24006C484B /* sprint2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F501E5E9F24006C484B /* sprint2.json */; };
+		EAA96F521E5E9F24006C484B /* sprint2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F501E5E9F24006C484B /* sprint2.json */; };
+		EAA96F531E5E9F24006C484B /* sprint2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F501E5E9F24006C484B /* sprint2.json */; };
+		EAA96F551E5E9F2C006C484B /* other2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F541E5E9F2C006C484B /* other2.json */; };
+		EAA96F561E5E9F2C006C484B /* other2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F541E5E9F2C006C484B /* other2.json */; };
+		EAA96F571E5E9F2C006C484B /* other2.json in Resources */ = {isa = PBXBuildFile; fileRef = EAA96F541E5E9F2C006C484B /* other2.json */; };
+		EAA96F591E5EA13D006C484B /* SwimWorkoutTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA96F581E5EA13D006C484B /* SwimWorkoutTypes.swift */; };
+		EAA96F5A1E5EA13D006C484B /* SwimWorkoutTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA96F581E5EA13D006C484B /* SwimWorkoutTypes.swift */; };
+		EAB793501E3E89E700051419 /* WorkoutChoicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7934F1E3E89E700051419 /* WorkoutChoicesTableViewCell.swift */; };
+		EAB7935A1E3E977000051419 /* SwimWorkoutCollectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB793591E3E976F00051419 /* SwimWorkoutCollectionService.swift */; };
+		EAB7935B1E3E977400051419 /* SwimWorkoutCollectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB793591E3E976F00051419 /* SwimWorkoutCollectionService.swift */; };
+		EABA86331E3D8BB70019E22B /* WorkoutCollectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABA86321E3D8BB70019E22B /* WorkoutCollectionTableViewController.swift */; };
+		EAC3DA911DC861FF009FB3F4 /* SliderScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3DA8E1DC860B6009FB3F4 /* SliderScene.swift */; };
+		EACDB3981DC6846100F2F98E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDB3971DC6846100F2F98E /* AppDelegate.swift */; };
+		EACDB39A1DC6846100F2F98E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDB3991DC6846100F2F98E /* ViewController.swift */; };
+		EACDB39D1DC6846100F2F98E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACDB39B1DC6846100F2F98E /* Main.storyboard */; };
+		EACDB39F1DC6846100F2F98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDB39E1DC6846100F2F98E /* Assets.xcassets */; };
+		EACDB3A21DC6846100F2F98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACDB3A01DC6846100F2F98E /* LaunchScreen.storyboard */; };
+		EACDB3AD1DC6846100F2F98E /* SwimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDB3AC1DC6846100F2F98E /* SwimTests.swift */; };
+		EACDB3B81DC6846100F2F98E /* SwimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDB3B71DC6846100F2F98E /* SwimUITests.swift */; };
+		EACDB3BD1DC6846100F2F98E /* Swim WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EACDB3BC1DC6846100F2F98E /* Swim WatchKit App.app */; };
+		EACDB3C31DC6846100F2F98E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACDB3C11DC6846100F2F98E /* Interface.storyboard */; };
+		EACDB3C51DC6846100F2F98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDB3C41DC6846100F2F98E /* Assets.xcassets */; };
+		EACDB3CC1DC6846200F2F98E /* Swim WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EACDB3CB1DC6846200F2F98E /* Swim WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EACDB3D11DC6846200F2F98E /* InstructionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDB3D01DC6846200F2F98E /* InstructionInterfaceController.swift */; };
+		EACDB3D31DC6846200F2F98E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDB3D21DC6846200F2F98E /* ExtensionDelegate.swift */; };
+		EACDB3D51DC6846200F2F98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDB3D41DC6846200F2F98E /* Assets.xcassets */; };
+		EAD07A091E4BF82E00941FE3 /* SwimSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD07A081E4BF82E00941FE3 /* SwimSet.swift */; };
+		EAD07A0A1E4BF98900941FE3 /* SwimSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD07A081E4BF82E00941FE3 /* SwimSet.swift */; };
+		EAD07A0C1E4BF99400941FE3 /* SwimWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD07A0B1E4BF99400941FE3 /* SwimWorkout.swift */; };
+		EAD07A0D1E4BF99700941FE3 /* SwimWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD07A0B1E4BF99400941FE3 /* SwimWorkout.swift */; };
+		EAE0FB481E91B32F00F29E01 /* WorkoutProgramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE0FB471E91B32F00F29E01 /* WorkoutProgramTableViewCell.swift */; };
+		EAEA2EF91E6F890F00C11F29 /* SetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA2EF81E6F890F00C11F29 /* SetTableViewCell.swift */; };
+		EAEA2EFB1E6F896900C11F29 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA2EFA1E6F896900C11F29 /* CardTableViewCell.swift */; };
+		EAEA2F001E6F8C5800C11F29 /* WorkoutInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA2EFF1E6F8C5800C11F29 /* WorkoutInformationTableViewController.swift */; };
+		EAF25F211EA037E800851B0C /* WatchSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF25F201EA037E800851B0C /* WatchSender.swift */; };
+		EAFA516B1E2EFB3200B16ECF /* kick1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87E81E2AFA8D00ADC211 /* kick1.json */; };
+		EAFA516C1E2EFB3200B16ECF /* threshold1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EC1E2AFAA000ADC211 /* threshold1.json */; };
+		EAFA516D1E2EFB3200B16ECF /* other1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EE1E2AFAA800ADC211 /* other1.json */; };
+		EAFA516E1E2EFB3200B16ECF /* distance1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EA1E2AFA9500ADC211 /* distance1.json */; };
+		EAFA516F1E2EFB3200B16ECF /* midDistance1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87E61E2AFA8100ADC211 /* midDistance1.json */; };
+		EAFA51701E2EFB3300B16ECF /* kick1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87E81E2AFA8D00ADC211 /* kick1.json */; };
+		EAFA51711E2EFB3300B16ECF /* threshold1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EC1E2AFAA000ADC211 /* threshold1.json */; };
+		EAFA51721E2EFB3300B16ECF /* other1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EE1E2AFAA800ADC211 /* other1.json */; };
+		EAFA51731E2EFB3300B16ECF /* distance1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87EA1E2AFA9500ADC211 /* distance1.json */; };
+		EAFA51741E2EFB3300B16ECF /* midDistance1.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9C87E61E2AFA8100ADC211 /* midDistance1.json */; };
+		F26220EFBFC867E079CD2E4B /* Pods_Swim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8658D1CF44841C35AB0B5BE2 /* Pods_Swim.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EACDB3A91DC6846100F2F98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACDB38C1DC6846100F2F98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACDB3931DC6846100F2F98E;
+			remoteInfo = Swim;
+		};
+		EACDB3B41DC6846100F2F98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACDB38C1DC6846100F2F98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACDB3931DC6846100F2F98E;
+			remoteInfo = Swim;
+		};
+		EACDB3BE1DC6846100F2F98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACDB38C1DC6846100F2F98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACDB3BB1DC6846100F2F98E;
+			remoteInfo = "Swim WatchKit App";
+		};
+		EACDB3CD1DC6846200F2F98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EACDB38C1DC6846100F2F98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACDB3CA1DC6846200F2F98E;
+			remoteInfo = "Swim WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EACDB3DC1DC6846200F2F98E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EACDB3CC1DC6846200F2F98E /* Swim WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3E01DC6846200F2F98E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EACDB3BD1DC6846100F2F98E /* Swim WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		72D8FE721654D5D100C61C8B /* Pods-Swim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swim.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swim/Pods-Swim.release.xcconfig"; sourceTree = "<group>"; };
+		745FAF372889CD635174C2C9 /* Pods-Swim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swim/Pods-Swim.debug.xcconfig"; sourceTree = "<group>"; };
+		8658D1CF44841C35AB0B5BE2 /* Pods_Swim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07159A1E2C75B1008FC03F /* swimtabicon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swimtabicon3.png; sourceTree = "<group>"; };
+		EA0715A61E2C7815008FC03F /* storeicon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storeicon4.png; sourceTree = "<group>"; };
+		EA0715A81E2C7899008FC03F /* swimicon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swimicon5.png; sourceTree = "<group>"; };
+		EA0715AA1E2C78CE008FC03F /* swimicon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swimicon6.png; sourceTree = "<group>"; };
+		EA0A662C1DE93782002EDE47 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EA0A662E1DE9385C002EDE47 /* HKQuantityTypeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKQuantityTypeExtension.swift; path = "Swim WatchKit Extension/HKQuantityTypeExtension.swift"; sourceTree = SOURCE_ROOT; };
+		EA0A662F1DE9385C002EDE47 /* ParentConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentConnector.swift; path = "Swim WatchKit Extension/ParentConnector.swift"; sourceTree = SOURCE_ROOT; };
+		EA0FA1F81DD4345E002C22CF /* RootSetInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootSetInterfaceController.swift; sourceTree = "<group>"; };
+		EA0FA1FA1DD43636002C22CF /* Swim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swim.entitlements; sourceTree = "<group>"; };
+		EA39B1661DD96EB6008C0606 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		EA39B1681DD96F4C008C0606 /* Swim WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Swim WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		EA39B16B1DD970B7008C0606 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA3E36801E90B929004E4A26 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EA484FBC1E90BB3C00BC5D9D /* WorkoutTypesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTypesTableViewController.swift; sourceTree = "<group>"; };
+		EA484FBE1E90BB5500BC5D9D /* WorkoutTypesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTypesTableViewCell.swift; sourceTree = "<group>"; };
+		EA5CE3E41DEFE6BA00234D6E /* sprint1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sprint1.json; sourceTree = "<group>"; };
+		EA5CE3E71DEFE73A00234D6E /* SwimWorkoutService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimWorkoutService.swift; sourceTree = "<group>"; };
+		EA710AF41E6E46CE0078B14D /* WorkoutCollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		EA7BA0851E9A1BC200F99C4D /* HomeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
+		EA7BA0871E9A1D7400F99C4D /* WorkoutProgramRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutProgramRowController.swift; sourceTree = "<group>"; };
+		EA9813DE1EA03D6400D511A4 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		EA9C87E61E2AFA8100ADC211 /* midDistance1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = midDistance1.json; sourceTree = "<group>"; };
+		EA9C87E81E2AFA8D00ADC211 /* kick1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kick1.json; sourceTree = "<group>"; };
+		EA9C87EA1E2AFA9500ADC211 /* distance1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = distance1.json; sourceTree = "<group>"; };
+		EA9C87EC1E2AFAA000ADC211 /* threshold1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = threshold1.json; sourceTree = "<group>"; };
+		EA9C87EE1E2AFAA800ADC211 /* other1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = other1.json; sourceTree = "<group>"; };
+		EAA5B2C41DD162F600D65423 /* SetInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInterfaceController.swift; sourceTree = "<group>"; };
+		EAA96F401E5E9EF0006C484B /* midDistance2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = midDistance2.json; sourceTree = "<group>"; };
+		EAA96F441E5E9F06006C484B /* distance2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = distance2.json; sourceTree = "<group>"; };
+		EAA96F481E5E9F17006C484B /* threshold2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = threshold2.json; sourceTree = "<group>"; };
+		EAA96F4C1E5E9F1D006C484B /* kick2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kick2.json; sourceTree = "<group>"; };
+		EAA96F501E5E9F24006C484B /* sprint2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sprint2.json; sourceTree = "<group>"; };
+		EAA96F541E5E9F2C006C484B /* other2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = other2.json; sourceTree = "<group>"; };
+		EAA96F581E5EA13D006C484B /* SwimWorkoutTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimWorkoutTypes.swift; sourceTree = "<group>"; };
+		EAB7934F1E3E89E700051419 /* WorkoutChoicesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutChoicesTableViewCell.swift; sourceTree = "<group>"; };
+		EAB793591E3E976F00051419 /* SwimWorkoutCollectionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimWorkoutCollectionService.swift; sourceTree = "<group>"; };
+		EABA86321E3D8BB70019E22B /* WorkoutCollectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCollectionTableViewController.swift; sourceTree = "<group>"; };
+		EAC3DA8E1DC860B6009FB3F4 /* SliderScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SliderScene.swift; path = ../SliderScene.swift; sourceTree = "<group>"; };
+		EACDB3941DC6846100F2F98E /* Swim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACDB3971DC6846100F2F98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EACDB3991DC6846100F2F98E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EACDB39C1DC6846100F2F98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACDB39E1DC6846100F2F98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACDB3A11DC6846100F2F98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EACDB3A31DC6846100F2F98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACDB3A81DC6846100F2F98E /* SwimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACDB3AC1DC6846100F2F98E /* SwimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimTests.swift; sourceTree = "<group>"; };
+		EACDB3AE1DC6846100F2F98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACDB3B31DC6846100F2F98E /* SwimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACDB3B71DC6846100F2F98E /* SwimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimUITests.swift; sourceTree = "<group>"; };
+		EACDB3B91DC6846100F2F98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACDB3BC1DC6846100F2F98E /* Swim WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swim WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACDB3C21DC6846100F2F98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EACDB3C41DC6846100F2F98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACDB3C61DC6846100F2F98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACDB3CB1DC6846200F2F98E /* Swim WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Swim WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACDB3D01DC6846200F2F98E /* InstructionInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionInterfaceController.swift; sourceTree = "<group>"; };
+		EACDB3D21DC6846200F2F98E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EACDB3D41DC6846200F2F98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACDB3D61DC6846200F2F98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD07A081E4BF82E00941FE3 /* SwimSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimSet.swift; sourceTree = "<group>"; };
+		EAD07A0B1E4BF99400941FE3 /* SwimWorkout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimWorkout.swift; sourceTree = "<group>"; };
+		EAE0FB471E91B32F00F29E01 /* WorkoutProgramTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutProgramTableViewCell.swift; sourceTree = "<group>"; };
+		EAEA2EF81E6F890F00C11F29 /* SetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTableViewCell.swift; sourceTree = "<group>"; };
+		EAEA2EFA1E6F896900C11F29 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		EAEA2EFF1E6F8C5800C11F29 /* WorkoutInformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutInformationTableViewController.swift; sourceTree = "<group>"; };
+		EAF25F201EA037E800851B0C /* WatchSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSender.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4C810DFFCDB58C6BF23DE11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3911DC6846100F2F98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA39B1671DD96EB6008C0606 /* HealthKit.framework in Frameworks */,
+				F26220EFBFC867E079CD2E4B /* Pods_Swim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3A51DC6846100F2F98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3B01DC6846100F2F98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3C81DC6846200F2F98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA39B16C1DD970B7008C0606 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5C559C84A07BB721A8C7F0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				745FAF372889CD635174C2C9 /* Pods-Swim.debug.xcconfig */,
+				72D8FE721654D5D100C61C8B /* Pods-Swim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA02EC441DDAC718004997CD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EA0A662E1DE9385C002EDE47 /* HKQuantityTypeExtension.swift */,
+				EA0A662F1DE9385C002EDE47 /* ParentConnector.swift */,
+			);
+			name = Utilities;
+			path = "../../../Downloads/SpeedySlothUsingHealthKittobuildaworkoutappforAppleWatch/SpeedySloth/SpeedySloth WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EA0715951E2C72C7008FC03F /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				EA0715A61E2C7815008FC03F /* storeicon4.png */,
+				EA0715A81E2C7899008FC03F /* swimicon5.png */,
+				EA07159A1E2C75B1008FC03F /* swimtabicon3.png */,
+				EA0715AA1E2C78CE008FC03F /* swimicon6.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		EA0A662B1DE93782002EDE47 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EA0A662C1DE93782002EDE47 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EA39B1651DD96EB6008C0606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA39B16B1DD970B7008C0606 /* HealthKit.framework */,
+				EA39B1661DD96EB6008C0606 /* HealthKit.framework */,
+				8658D1CF44841C35AB0B5BE2 /* Pods_Swim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3E367F1E90B894004E4A26 /* Workout Tab Element New */ = {
+			isa = PBXGroup;
+			children = (
+				EA3E36801E90B929004E4A26 /* HomeViewController.swift */,
+				EAE0FB471E91B32F00F29E01 /* WorkoutProgramTableViewCell.swift */,
+				EAF25F201EA037E800851B0C /* WatchSender.swift */,
+			);
+			name = "Workout Tab Element New";
+			sourceTree = "<group>";
+		};
+		EA484FBB1E90BA6400BC5D9D /* Workout Types */ = {
+			isa = PBXGroup;
+			children = (
+				EA484FBC1E90BB3C00BC5D9D /* WorkoutTypesTableViewController.swift */,
+				EA484FBE1E90BB5500BC5D9D /* WorkoutTypesTableViewCell.swift */,
+			);
+			name = "Workout Types";
+			sourceTree = "<group>";
+		};
+		EA5CE3E31DEFE64600234D6E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EAD07A071E4BF81700941FE3 /* Swim Workout Classes */,
+				EACDB3B61DC6846100F2F98E /* SwimUITests */,
+				EAB793571E3E972B00051419 /* Middistance Workout JSON */,
+				EAB793561E3E972000051419 /* Distance Workout JSONS */,
+				EAB793551E3E970F00051419 /* Threshold Workout JSON */,
+				EAB793541E3E970500051419 /* Kick Workout JSON */,
+				EAB793531E3E96F900051419 /* Sprint Workouts JSON */,
+				EAB793581E3E973A00051419 /* Other Workout JSON */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		EA5F30501E99F0CA009950A7 /* Old code */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA2EFC1E6F89CB00C11F29 /* Workout Tab Elements Old */,
+			);
+			name = "Old code";
+			path = Swim;
+			sourceTree = "<group>";
+		};
+		EA7BA0891E9A1E6B00F99C4D /* Home Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BA0851E9A1BC200F99C4D /* HomeInterfaceController.swift */,
+				EA7BA0871E9A1D7400F99C4D /* WorkoutProgramRowController.swift */,
+			);
+			name = "Home Controller";
+			sourceTree = "<group>";
+		};
+		EA7BA08A1E9A1E8100F99C4D /* Workout Navigation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EACDB3D01DC6846200F2F98E /* InstructionInterfaceController.swift */,
+				EAA5B2C41DD162F600D65423 /* SetInterfaceController.swift */,
+				EA0FA1F81DD4345E002C22CF /* RootSetInterfaceController.swift */,
+			);
+			name = "Workout Navigation Controllers";
+			sourceTree = "<group>";
+		};
+		EAB793531E3E96F900051419 /* Sprint Workouts JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EA5CE3E41DEFE6BA00234D6E /* sprint1.json */,
+				EAA96F501E5E9F24006C484B /* sprint2.json */,
+			);
+			name = "Sprint Workouts JSON";
+			sourceTree = "<group>";
+		};
+		EAB793541E3E970500051419 /* Kick Workout JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C87E81E2AFA8D00ADC211 /* kick1.json */,
+				EAA96F4C1E5E9F1D006C484B /* kick2.json */,
+			);
+			name = "Kick Workout JSON";
+			sourceTree = "<group>";
+		};
+		EAB793551E3E970F00051419 /* Threshold Workout JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C87EC1E2AFAA000ADC211 /* threshold1.json */,
+				EAA96F481E5E9F17006C484B /* threshold2.json */,
+			);
+			name = "Threshold Workout JSON";
+			sourceTree = "<group>";
+		};
+		EAB793561E3E972000051419 /* Distance Workout JSONS */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C87EA1E2AFA9500ADC211 /* distance1.json */,
+				EAA96F441E5E9F06006C484B /* distance2.json */,
+			);
+			name = "Distance Workout JSONS";
+			sourceTree = "<group>";
+		};
+		EAB793571E3E972B00051419 /* Middistance Workout JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C87E61E2AFA8100ADC211 /* midDistance1.json */,
+				EAA96F401E5E9EF0006C484B /* midDistance2.json */,
+			);
+			name = "Middistance Workout JSON";
+			sourceTree = "<group>";
+		};
+		EAB793581E3E973A00051419 /* Other Workout JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EA9C87EE1E2AFAA800ADC211 /* other1.json */,
+				EAA96F541E5E9F2C006C484B /* other2.json */,
+			);
+			name = "Other Workout JSON";
+			sourceTree = "<group>";
+		};
+		EACDB38B1DC6846100F2F98E = {
+			isa = PBXGroup;
+			children = (
+				EACDB3961DC6846100F2F98E /* Swim */,
+				EA5F30501E99F0CA009950A7 /* Old code */,
+				EACDB3AB1DC6846100F2F98E /* SwimTests */,
+				EA5CE3E31DEFE64600234D6E /* Shared */,
+				EACDB3C01DC6846100F2F98E /* Swim WatchKit App */,
+				EACDB3CF1DC6846200F2F98E /* Swim WatchKit Extension */,
+				EACDB3951DC6846100F2F98E /* Products */,
+				EA0A662B1DE93782002EDE47 /* Utilities */,
+				EA39B1651DD96EB6008C0606 /* Frameworks */,
+				D5C559C84A07BB721A8C7F0D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EACDB3951DC6846100F2F98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACDB3941DC6846100F2F98E /* Swim.app */,
+				EACDB3A81DC6846100F2F98E /* SwimTests.xctest */,
+				EACDB3B31DC6846100F2F98E /* SwimUITests.xctest */,
+				EACDB3BC1DC6846100F2F98E /* Swim WatchKit App.app */,
+				EACDB3CB1DC6846200F2F98E /* Swim WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACDB3961DC6846100F2F98E /* Swim */ = {
+			isa = PBXGroup;
+			children = (
+				EA9813DE1EA03D6400D511A4 /* TODO */,
+				EACDB3971DC6846100F2F98E /* AppDelegate.swift */,
+				EA0FA1FA1DD43636002C22CF /* Swim.entitlements */,
+				EA3E367F1E90B894004E4A26 /* Workout Tab Element New */,
+				EA484FBB1E90BA6400BC5D9D /* Workout Types */,
+				EAEA2EFD1E6F89DF00C11F29 /* Workout Collection */,
+				EAEA2EFE1E6F8A3A00C11F29 /* Workout Information/Sets */,
+				EACDB39B1DC6846100F2F98E /* Main.storyboard */,
+				EA0715951E2C72C7008FC03F /* Img */,
+				EACDB39E1DC6846100F2F98E /* Assets.xcassets */,
+				EACDB3A01DC6846100F2F98E /* LaunchScreen.storyboard */,
+				EACDB3A31DC6846100F2F98E /* Info.plist */,
+			);
+			path = Swim;
+			sourceTree = "<group>";
+		};
+		EACDB3AB1DC6846100F2F98E /* SwimTests */ = {
+			isa = PBXGroup;
+			children = (
+				EACDB3AC1DC6846100F2F98E /* SwimTests.swift */,
+				EACDB3AE1DC6846100F2F98E /* Info.plist */,
+			);
+			path = SwimTests;
+			sourceTree = "<group>";
+		};
+		EACDB3B61DC6846100F2F98E /* SwimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EACDB3B71DC6846100F2F98E /* SwimUITests.swift */,
+				EACDB3B91DC6846100F2F98E /* Info.plist */,
+			);
+			path = SwimUITests;
+			sourceTree = "<group>";
+		};
+		EACDB3C01DC6846100F2F98E /* Swim WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EACDB3C11DC6846100F2F98E /* Interface.storyboard */,
+				EACDB3C41DC6846100F2F98E /* Assets.xcassets */,
+				EACDB3C61DC6846100F2F98E /* Info.plist */,
+			);
+			path = "Swim WatchKit App";
+			sourceTree = "<group>";
+		};
+		EACDB3CF1DC6846200F2F98E /* Swim WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA39B1681DD96F4C008C0606 /* Swim WatchKit Extension.entitlements */,
+				EA02EC441DDAC718004997CD /* Utilities */,
+				EA7BA0891E9A1E6B00F99C4D /* Home Controller */,
+				EA7BA08A1E9A1E8100F99C4D /* Workout Navigation Controllers */,
+				EAC3DA8E1DC860B6009FB3F4 /* SliderScene.swift */,
+				EACDB3D21DC6846200F2F98E /* ExtensionDelegate.swift */,
+				EACDB3D41DC6846200F2F98E /* Assets.xcassets */,
+				EACDB3D61DC6846200F2F98E /* Info.plist */,
+			);
+			path = "Swim WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EAD07A071E4BF81700941FE3 /* Swim Workout Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAD07A0B1E4BF99400941FE3 /* SwimWorkout.swift */,
+				EAD07A081E4BF82E00941FE3 /* SwimSet.swift */,
+				EAA96F581E5EA13D006C484B /* SwimWorkoutTypes.swift */,
+				EAB793591E3E976F00051419 /* SwimWorkoutCollectionService.swift */,
+				EA5CE3E71DEFE73A00234D6E /* SwimWorkoutService.swift */,
+			);
+			name = "Swim Workout Classes";
+			sourceTree = "<group>";
+		};
+		EAEA2EFC1E6F89CB00C11F29 /* Workout Tab Elements Old */ = {
+			isa = PBXGroup;
+			children = (
+				EACDB3991DC6846100F2F98E /* ViewController.swift */,
+				EAB7934F1E3E89E700051419 /* WorkoutChoicesTableViewCell.swift */,
+			);
+			name = "Workout Tab Elements Old";
+			sourceTree = "<group>";
+		};
+		EAEA2EFD1E6F89DF00C11F29 /* Workout Collection */ = {
+			isa = PBXGroup;
+			children = (
+				EABA86321E3D8BB70019E22B /* WorkoutCollectionTableViewController.swift */,
+				EA710AF41E6E46CE0078B14D /* WorkoutCollectionTableViewCell.swift */,
+			);
+			name = "Workout Collection";
+			sourceTree = "<group>";
+		};
+		EAEA2EFE1E6F8A3A00C11F29 /* Workout Information/Sets */ = {
+			isa = PBXGroup;
+			children = (
+				EAEA2EFF1E6F8C5800C11F29 /* WorkoutInformationTableViewController.swift */,
+				EAEA2EF81E6F890F00C11F29 /* SetTableViewCell.swift */,
+				EAEA2EFA1E6F896900C11F29 /* CardTableViewCell.swift */,
+			);
+			name = "Workout Information/Sets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACDB3931DC6846100F2F98E /* Swim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACDB3E11DC6846200F2F98E /* Build configuration list for PBXNativeTarget "Swim" */;
+			buildPhases = (
+				250B0DBEE65D389CC4A5E13B /* [CP] Check Pods Manifest.lock */,
+				EACDB3901DC6846100F2F98E /* Sources */,
+				EACDB3911DC6846100F2F98E /* Frameworks */,
+				EACDB3921DC6846100F2F98E /* Resources */,
+				EACDB3E01DC6846200F2F98E /* Embed Watch Content */,
+				73E182E5D7B0CC4C998E9270 /* [CP] Embed Pods Frameworks */,
+				15B1C6AFF5E4E469D60420AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACDB3BF1DC6846100F2F98E /* PBXTargetDependency */,
+			);
+			name = Swim;
+			productName = Swim;
+			productReference = EACDB3941DC6846100F2F98E /* Swim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EACDB3A71DC6846100F2F98E /* SwimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACDB3E41DC6846200F2F98E /* Build configuration list for PBXNativeTarget "SwimTests" */;
+			buildPhases = (
+				EACDB3A41DC6846100F2F98E /* Sources */,
+				EACDB3A51DC6846100F2F98E /* Frameworks */,
+				EACDB3A61DC6846100F2F98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACDB3AA1DC6846100F2F98E /* PBXTargetDependency */,
+			);
+			name = SwimTests;
+			productName = SwimTests;
+			productReference = EACDB3A81DC6846100F2F98E /* SwimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EACDB3B21DC6846100F2F98E /* SwimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACDB3E71DC6846200F2F98E /* Build configuration list for PBXNativeTarget "SwimUITests" */;
+			buildPhases = (
+				EACDB3AF1DC6846100F2F98E /* Sources */,
+				EACDB3B01DC6846100F2F98E /* Frameworks */,
+				EACDB3B11DC6846100F2F98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACDB3B51DC6846100F2F98E /* PBXTargetDependency */,
+			);
+			name = SwimUITests;
+			productName = SwimUITests;
+			productReference = EACDB3B31DC6846100F2F98E /* SwimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EACDB3BB1DC6846100F2F98E /* Swim WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACDB3DD1DC6846200F2F98E /* Build configuration list for PBXNativeTarget "Swim WatchKit App" */;
+			buildPhases = (
+				EACDB3BA1DC6846100F2F98E /* Resources */,
+				EACDB3DC1DC6846200F2F98E /* Embed App Extensions */,
+				C4C810DFFCDB58C6BF23DE11 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EACDB3CE1DC6846200F2F98E /* PBXTargetDependency */,
+			);
+			name = "Swim WatchKit App";
+			productName = "Swim WatchKit App";
+			productReference = EACDB3BC1DC6846100F2F98E /* Swim WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EACDB3CA1DC6846200F2F98E /* Swim WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACDB3D91DC6846200F2F98E /* Build configuration list for PBXNativeTarget "Swim WatchKit Extension" */;
+			buildPhases = (
+				EACDB3C71DC6846200F2F98E /* Sources */,
+				EACDB3C81DC6846200F2F98E /* Frameworks */,
+				EACDB3C91DC6846200F2F98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swim WatchKit Extension";
+			productName = "Swim WatchKit Extension";
+			productReference = EACDB3CB1DC6846200F2F98E /* Swim WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACDB38C1DC6846100F2F98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = StephenGrinich;
+				TargetAttributes = {
+					EACDB3931DC6846100F2F98E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LXL8KL3AZ6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					EACDB3A71DC6846100F2F98E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EACDB3931DC6846100F2F98E;
+					};
+					EACDB3B21DC6846100F2F98E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EACDB3931DC6846100F2F98E;
+					};
+					EACDB3BB1DC6846100F2F98E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LXL8KL3AZ6;
+						ProvisioningStyle = Automatic;
+					};
+					EACDB3CA1DC6846200F2F98E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LXL8KL3AZ6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EACDB38F1DC6846100F2F98E /* Build configuration list for PBXProject "Swim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACDB38B1DC6846100F2F98E;
+			productRefGroup = EACDB3951DC6846100F2F98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACDB3931DC6846100F2F98E /* Swim */,
+				EACDB3A71DC6846100F2F98E /* SwimTests */,
+				EACDB3B21DC6846100F2F98E /* SwimUITests */,
+				EACDB3BB1DC6846100F2F98E /* Swim WatchKit App */,
+				EACDB3CA1DC6846200F2F98E /* Swim WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACDB3921DC6846100F2F98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0715A91E2C7899008FC03F /* swimicon5.png in Resources */,
+				EACDB3A21DC6846100F2F98E /* LaunchScreen.storyboard in Resources */,
+				EA9C87E91E2AFA8D00ADC211 /* kick1.json in Resources */,
+				EA9C87EF1E2AFAA800ADC211 /* other1.json in Resources */,
+				EAA96F511E5E9F24006C484B /* sprint2.json in Resources */,
+				EAA96F451E5E9F06006C484B /* distance2.json in Resources */,
+				EA9813DF1EA03D6400D511A4 /* TODO in Resources */,
+				EA9C87EB1E2AFA9500ADC211 /* distance1.json in Resources */,
+				EAA96F551E5E9F2C006C484B /* other2.json in Resources */,
+				EAA96F491E5E9F17006C484B /* threshold2.json in Resources */,
+				EA0715AB1E2C78CE008FC03F /* swimicon6.png in Resources */,
+				EAA96F4D1E5E9F1D006C484B /* kick2.json in Resources */,
+				EA9C87ED1E2AFAA000ADC211 /* threshold1.json in Resources */,
+				EACDB39F1DC6846100F2F98E /* Assets.xcassets in Resources */,
+				EA07159B1E2C75B1008FC03F /* swimtabicon3.png in Resources */,
+				EA0715A71E2C7815008FC03F /* storeicon4.png in Resources */,
+				EAA96F411E5E9EF0006C484B /* midDistance2.json in Resources */,
+				EA5CE3E51DEFE6BA00234D6E /* sprint1.json in Resources */,
+				EACDB39D1DC6846100F2F98E /* Main.storyboard in Resources */,
+				EA9C87E71E2AFA8100ADC211 /* midDistance1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3A61DC6846100F2F98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3B11DC6846100F2F98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3BA1DC6846100F2F98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA96F4A1E5E9F17006C484B /* threshold2.json in Resources */,
+				EAA96F561E5E9F2C006C484B /* other2.json in Resources */,
+				EA3D8F601DF5096900777205 /* sprint1.json in Resources */,
+				EACDB3C51DC6846100F2F98E /* Assets.xcassets in Resources */,
+				EAFA516E1E2EFB3200B16ECF /* distance1.json in Resources */,
+				EAFA516D1E2EFB3200B16ECF /* other1.json in Resources */,
+				EAA96F421E5E9EF5006C484B /* midDistance2.json in Resources */,
+				EAFA516C1E2EFB3200B16ECF /* threshold1.json in Resources */,
+				EAFA516F1E2EFB3200B16ECF /* midDistance1.json in Resources */,
+				EACDB3C31DC6846100F2F98E /* Interface.storyboard in Resources */,
+				EAFA516B1E2EFB3200B16ECF /* kick1.json in Resources */,
+				EAA96F4E1E5E9F1D006C484B /* kick2.json in Resources */,
+				EAA96F461E5E9F06006C484B /* distance2.json in Resources */,
+				EAA96F521E5E9F24006C484B /* sprint2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3C91DC6846200F2F98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA96F431E5E9EF5006C484B /* midDistance2.json in Resources */,
+				EAFA51721E2EFB3300B16ECF /* other1.json in Resources */,
+				EAA96F4F1E5E9F1D006C484B /* kick2.json in Resources */,
+				EAA96F4B1E5E9F17006C484B /* threshold2.json in Resources */,
+				EA5CE3E61DEFE6BA00234D6E /* sprint1.json in Resources */,
+				EAA96F571E5E9F2C006C484B /* other2.json in Resources */,
+				EAFA51731E2EFB3300B16ECF /* distance1.json in Resources */,
+				EAFA51741E2EFB3300B16ECF /* midDistance1.json in Resources */,
+				EAFA51701E2EFB3300B16ECF /* kick1.json in Resources */,
+				EACDB3D51DC6846200F2F98E /* Assets.xcassets in Resources */,
+				EAA96F471E5E9F06006C484B /* distance2.json in Resources */,
+				EAA96F531E5E9F24006C484B /* sprint2.json in Resources */,
+				EAFA51711E2EFB3300B16ECF /* threshold1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B1C6AFF5E4E469D60420AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swim/Pods-Swim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		250B0DBEE65D389CC4A5E13B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73E182E5D7B0CC4C998E9270 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swim/Pods-Swim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACDB3901DC6846100F2F98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABA86331E3D8BB70019E22B /* WorkoutCollectionTableViewController.swift in Sources */,
+				EAEA2EF91E6F890F00C11F29 /* SetTableViewCell.swift in Sources */,
+				EA0A662D1DE93782002EDE47 /* Utilities.swift in Sources */,
+				EAF25F211EA037E800851B0C /* WatchSender.swift in Sources */,
+				EAB793501E3E89E700051419 /* WorkoutChoicesTableViewCell.swift in Sources */,
+				EAD07A091E4BF82E00941FE3 /* SwimSet.swift in Sources */,
+				EA484FBF1E90BB5500BC5D9D /* WorkoutTypesTableViewCell.swift in Sources */,
+				EACDB39A1DC6846100F2F98E /* ViewController.swift in Sources */,
+				EAE0FB481E91B32F00F29E01 /* WorkoutProgramTableViewCell.swift in Sources */,
+				EAA96F591E5EA13D006C484B /* SwimWorkoutTypes.swift in Sources */,
+				EAD07A0C1E4BF99400941FE3 /* SwimWorkout.swift in Sources */,
+				EACDB3981DC6846100F2F98E /* AppDelegate.swift in Sources */,
+				EAEA2F001E6F8C5800C11F29 /* WorkoutInformationTableViewController.swift in Sources */,
+				EA484FBD1E90BB3C00BC5D9D /* WorkoutTypesTableViewController.swift in Sources */,
+				EA3E36811E90B929004E4A26 /* HomeViewController.swift in Sources */,
+				EA710AF51E6E46CE0078B14D /* WorkoutCollectionTableViewCell.swift in Sources */,
+				EAB7935A1E3E977000051419 /* SwimWorkoutCollectionService.swift in Sources */,
+				EA5CE3E81DEFE73A00234D6E /* SwimWorkoutService.swift in Sources */,
+				EAEA2EFB1E6F896900C11F29 /* CardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3A41DC6846100F2F98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACDB3AD1DC6846100F2F98E /* SwimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3AF1DC6846100F2F98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACDB3B81DC6846100F2F98E /* SwimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDB3C71DC6846200F2F98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA5B2C51DD162F600D65423 /* SetInterfaceController.swift in Sources */,
+				EA7BA0881E9A1D7400F99C4D /* WorkoutProgramRowController.swift in Sources */,
+				EA0FA1F91DD4345E002C22CF /* RootSetInterfaceController.swift in Sources */,
+				EA0A66311DE9385C002EDE47 /* ParentConnector.swift in Sources */,
+				EAA96F5A1E5EA13D006C484B /* SwimWorkoutTypes.swift in Sources */,
+				EACDB3D31DC6846200F2F98E /* ExtensionDelegate.swift in Sources */,
+				EACDB3D11DC6846200F2F98E /* InstructionInterfaceController.swift in Sources */,
+				EA5CE3E91DEFE73A00234D6E /* SwimWorkoutService.swift in Sources */,
+				EAD07A0A1E4BF98900941FE3 /* SwimSet.swift in Sources */,
+				EA7BA0861E9A1BC200F99C4D /* HomeInterfaceController.swift in Sources */,
+				EAC3DA911DC861FF009FB3F4 /* SliderScene.swift in Sources */,
+				EA0A66321DE9389D002EDE47 /* Utilities.swift in Sources */,
+				EA0A66301DE9385C002EDE47 /* HKQuantityTypeExtension.swift in Sources */,
+				EAB7935B1E3E977400051419 /* SwimWorkoutCollectionService.swift in Sources */,
+				EAD07A0D1E4BF99700941FE3 /* SwimWorkout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EACDB3AA1DC6846100F2F98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACDB3931DC6846100F2F98E /* Swim */;
+			targetProxy = EACDB3A91DC6846100F2F98E /* PBXContainerItemProxy */;
+		};
+		EACDB3B51DC6846100F2F98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACDB3931DC6846100F2F98E /* Swim */;
+			targetProxy = EACDB3B41DC6846100F2F98E /* PBXContainerItemProxy */;
+		};
+		EACDB3BF1DC6846100F2F98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACDB3BB1DC6846100F2F98E /* Swim WatchKit App */;
+			targetProxy = EACDB3BE1DC6846100F2F98E /* PBXContainerItemProxy */;
+		};
+		EACDB3CE1DC6846200F2F98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EACDB3CA1DC6846200F2F98E /* Swim WatchKit Extension */;
+			targetProxy = EACDB3CD1DC6846200F2F98E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EACDB39B1DC6846100F2F98E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACDB39C1DC6846100F2F98E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACDB3A01DC6846100F2F98E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACDB3A11DC6846100F2F98E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EACDB3C11DC6846100F2F98E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACDB3C21DC6846100F2F98E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACDB3D71DC6846200F2F98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EACDB3D81DC6846200F2F98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACDB3DA1DC6846200F2F98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Swim WatchKit Extension/Swim WatchKit Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LXL8KL3AZ6;
+				INFOPLIST_FILE = "Swim WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.Swim.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		EACDB3DB1DC6846200F2F98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Swim WatchKit Extension/Swim WatchKit Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LXL8KL3AZ6;
+				INFOPLIST_FILE = "Swim WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.Swim.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		EACDB3DE1DC6846200F2F98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LXL8KL3AZ6;
+				IBSC_MODULE = Swim_WatchKit_Extension;
+				INFOPLIST_FILE = "Swim WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.Swim.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		EACDB3DF1DC6846200F2F98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LXL8KL3AZ6;
+				IBSC_MODULE = Swim_WatchKit_Extension;
+				INFOPLIST_FILE = "Swim WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.Swim.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		EACDB3E21DC6846200F2F98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745FAF372889CD635174C2C9 /* Pods-Swim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swim/Swim.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LXL8KL3AZ6;
+				INFOPLIST_FILE = Swim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.Swim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EACDB3E31DC6846200F2F98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D8FE721654D5D100C61C8B /* Pods-Swim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swim/Swim.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LXL8KL3AZ6;
+				INFOPLIST_FILE = Swim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.Swim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EACDB3E51DC6846200F2F98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.SwimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swim.app/Swim";
+			};
+			name = Debug;
+		};
+		EACDB3E61DC6846200F2F98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.SwimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swim.app/Swim";
+			};
+			name = Release;
+		};
+		EACDB3E81DC6846200F2F98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.SwimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swim;
+			};
+			name = Debug;
+		};
+		EACDB3E91DC6846200F2F98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stephengrinich.SwimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Swim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACDB38F1DC6846100F2F98E /* Build configuration list for PBXProject "Swim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACDB3D71DC6846200F2F98E /* Debug */,
+				EACDB3D81DC6846200F2F98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACDB3D91DC6846200F2F98E /* Build configuration list for PBXNativeTarget "Swim WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACDB3DA1DC6846200F2F98E /* Debug */,
+				EACDB3DB1DC6846200F2F98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACDB3DD1DC6846200F2F98E /* Build configuration list for PBXNativeTarget "Swim WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACDB3DE1DC6846200F2F98E /* Debug */,
+				EACDB3DF1DC6846200F2F98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACDB3E11DC6846200F2F98E /* Build configuration list for PBXNativeTarget "Swim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACDB3E21DC6846200F2F98E /* Debug */,
+				EACDB3E31DC6846200F2F98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACDB3E41DC6846200F2F98E /* Build configuration list for PBXNativeTarget "SwimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACDB3E51DC6846200F2F98E /* Debug */,
+				EACDB3E61DC6846200F2F98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACDB3E71DC6846200F2F98E /* Build configuration list for PBXNativeTarget "SwimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACDB3E81DC6846200F2F98E /* Debug */,
+				EACDB3E91DC6846200F2F98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACDB38C1DC6846100F2F98E /* Project object */;
+}
